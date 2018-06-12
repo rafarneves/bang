@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf8" lang="pt-br">
+	<title>Virtual</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		
+		.center-box{
+    		position:absolute;
+    		top:40px;
+    		right:0;
+    		bottom:0;
+			left:0;
+    		z-index:99;
+    		margin:auto;
+			background-color:dimgrey;
+			border: 5px solid yellow;
+			border-radius: 10px;
+			width:1000px;
+			height:500px;
+			box-shadow: -1px -1px 2px #325d6f;
+			-webkit-box-shadow: -1px -1px 2px #325d6f;
+			-moz-box-shadow: -1px -1px 2px #325d6f;
+    		text-align:center;
+    		line-height:450px;
+		}
+		td {
+			width: 400px;
+			height:300px;
+			text-align: center;
+		}
+		tr, td {
+			padding: 10px;
+		}
+		.border-video{
+			border: 5px solid yellow;
+			width: 400px;
+			height:300px;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			overflow: hidden;
+			box-shadow: -1px -1px 2px #325d6f;
+			-webkit-box-shadow: -1px -1px 2px #325d6f;
+			-moz-box-shadow: -1px -1px 2px #325d6f;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Bang Store</a>
+    		</div>
+    		<ul class="nav navbar-nav navbar-right">
+      			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    		</ul>
+    		<form class="navbar-form navbar-left" action="/action_page.php">
+      			<div class="input-group">
+        			<input type="text" class="form-control" placeholder="Search" name="search">
+        				<div class="input-group-btn">
+          					<button class="btn btn-default" type="submit">
+            					<i class="glyphicon glyphicon-search"></i>
+          					</button>
+        				</div>
+      			</div>
+    		</form>
+  		</div>
+	</nav>
+
+	<div class="container" style="margin-left: 2px">
+		<div class="row">
+			<table border="0" style="text-align: center">
+				<tr>
+					<td>
+						<div class="border-video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/k9CA5R1dBd0" border-radius="10px"; frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+					</td>
+					<td>
+						<div class="border-video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jn5dPC89qRc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allign="middle"></iframe>
+						</div>
+					</td>
+					<td>
+						<div class="border-video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/nO8C0jpsW7Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>	
+						</div>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<div class="border-video"></div>
+					</td>
+					<td>
+						<div class="border-video"></div>
+					</td>
+					<td>
+						<div class="border-video"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+<footer></footer>
+</html>
